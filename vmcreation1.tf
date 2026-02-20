@@ -5,7 +5,7 @@
 }
 
 resource "google_compute_instance" "my_vm" {
-  name         = "pushpitha-test vm creation from GCP "   # 👈 VM Name goes here
+  name         = "pushpitha-vm-01"   # 👈 VM Name goes here
   machine_type = "e2-medium"
   zone         = "us-central1-a"
 
